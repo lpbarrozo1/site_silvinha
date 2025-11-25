@@ -1,0 +1,77 @@
+        body {
+            background: #f7f3f9;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+
+        .hero-card {
+            background: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+            padding: 2rem 1.5rem;
+        }
+
+        .highlight {
+            color: #b83280;
+            /* tom rosado */
+            font-weight: 700;
+        }
+
+        .foto-silvinha-wrapper {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid #b83280;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            margin: 0 auto;
+        }
+
+        .foto-silvinha-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .catalog-card {
+            border-radius: 0.75rem;
+            border: none;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .catalog-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 24px rgba(0, 0, 0, 0.10);
+        }
+
+        .catalog-cover {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 0.75rem 0 0 0.75rem;
+        }
+
+        @media (max-width: 575.98px) {
+            .hero-card {
+                padding: 1.5rem 1.25rem;
+            }
+
+            .catalog-cover {
+                border-radius: 0.75rem 0.75rem 0 0;
+                height: 200px;
+            }
+        }
+
+        .btn-catalogo {
+            background: #b83280;
+            border: none;
+        }
+
+        .btn-catalogo:hover {
+            background: #97306b;
+        }
+
+        footer {
+            font-size: 0.85rem;
+            color: #6b7280;
+        }
